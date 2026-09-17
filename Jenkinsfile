@@ -1,4 +1,4 @@
-  pipeline {
+pipeline {
     agent any
 
     stages {
@@ -12,7 +12,7 @@
 
         stage('Generate Report') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\makam\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" app.py'
             }
         }
 
